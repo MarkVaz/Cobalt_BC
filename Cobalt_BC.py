@@ -38,9 +38,9 @@ with Exploration_2:
 
     with st.echo():
         #Data for British Columbia, provided through government opendata
-        BC_Data = gpd.read_file('Data\BC\BC_bedrock_ll83.shp')
+        BC_Data = gpd.read_file('Data/BC/BC_bedrock_ll83.shp')
         #Data for Critical elements info through government open source data
-        Cobalt_Deposits = pd.read_excel('Data\Critical_Elements.xlsx', sheet_name = 'Cobalt', header= 3)
+        Cobalt_Deposits = pd.read_excel('Data/Critical_Elements.xlsx', sheet_name = 'Cobalt', header= 3)
     
     st.markdown('Now we can take a closer look at each Data Frame')
     
